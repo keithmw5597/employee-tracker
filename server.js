@@ -1,6 +1,9 @@
+// import dbConnection from './db/connection';
 const dbConnection = require('./db/connection');
-const prompt = require('./index.js');
-const express = require('express');
+
+// import prompt from './index';
+const prompt = require('./index');
+import express from 'express';
 const PORT = process.env.PORT || 3001;
 const app = express();
 

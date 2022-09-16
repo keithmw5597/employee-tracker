@@ -1,6 +1,4 @@
-const inquirer = require('inquirer');
-const prompt = inquirer.createPromptModule();
-const db = require('./utils/inputCheck');
+import inquirer from 'inquirer';
 
 function prompt() {
     inquirer.prompt([
